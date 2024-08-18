@@ -266,8 +266,8 @@ padding: 126px 40px;
 
 .navbar-toggler { background-color: #fff; }
 .header_top { background-size: cover; background-image: url(https://img.picui.cn/free/2024/08/18/66c0d2e4eaf67.png);}
-.mail_menu { display: none; }
-.logo{ text-align: center; }
+.mail_menu {margin-top: -70px;margin-right: -120px;  }
+.logo{ text-align: left; }
 .header_section { padding-top: 10px; }
 .contact_bt a { width: 140px; }
 .makes_text { font-size: 24px; text-align: right; }
@@ -379,8 +379,16 @@ ul.link li {
 }
 .navbar-toggler { background-color: #fff; }
 .header_top { background-size: cover; background-image: url(https://img.picui.cn/free/2024/08/18/66c0d2e4eaf67.png);}
-.mail_menu { display: none; }
-.logo{ text-align: center; }
+/* .mail_menu { display: none; }
+.logo{ text-align: center; } */
+.mail_menu {
+    margin-top: -70px;
+    margin-right: -10px;
+}
+
+.logo {
+    text-align: left;
+}
 .header_section { padding-top: 10px; }
 .banner_taital { font-size: 36px; }
 .routine_taital { font-size: 26px; }
